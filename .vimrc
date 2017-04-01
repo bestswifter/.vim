@@ -57,6 +57,7 @@ endif
 
 set background=dark
 colorscheme solarized
+au BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
 
 if !has('gui_running')
     colorscheme default
