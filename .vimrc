@@ -40,8 +40,6 @@ Plugin 'CmdlineComplete'
 Plugin 'Align'
 "..................................
 
-Plugin 'Valloric/YouCompleteMe'
-
 call vundle#end()
 
 cd ~
