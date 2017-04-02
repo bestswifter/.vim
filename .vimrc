@@ -14,7 +14,7 @@ Plugin 'L9'
 Plugin 'Lokaltog/vim-easymotion'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'jiangmiao/auto-pairs'
-Plugin 'kien/ctrlp.vim'
+Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'klen/python-mode'
 Plugin 'mileszs/ack.vim'
 Plugin 'msanders/cocoa.vim'
@@ -61,3 +61,10 @@ au BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
 if !has('gui_running')
     colorscheme default
 endif
+
+" Configure CtrlP
+map <F3> :CtrlPMixed<CR>
+map <F4> :CtrlPFunky<CR>
+
+let g:ctrlp_funky_syntax_highlight = 1
+let g:ctrlp_extensions = ['funky']
