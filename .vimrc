@@ -17,7 +17,6 @@ Plugin 'jiangmiao/auto-pairs'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'klen/python-mode'
 Plugin 'mileszs/ack.vim'
-Plugin 'msanders/cocoa.vim'
 Plugin 'nkwsqyyzx/vimrc'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/nerdtree'
@@ -29,6 +28,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'wellle/targets.vim'
+Plugin 'majutsushi/tagbar'
 
 "..................................
 " vim-scripts repos
@@ -68,3 +68,6 @@ map <F4> :CtrlPFunky<CR>
 
 let g:ctrlp_funky_syntax_highlight = 1
 let g:ctrlp_extensions = ['funky']
+
+" Config tagbar
+map <F2> :TagbarToggle<CR> 
