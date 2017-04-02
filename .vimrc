@@ -12,7 +12,6 @@ Plugin 'gmarik/vundle'
 Plugin 'FuzzyFinder'
 Plugin 'L9'
 Plugin 'Lokaltog/vim-easymotion'
-Plugin 'Valloric/YouCompleteMe'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'kien/ctrlp.vim'
@@ -40,6 +39,8 @@ Plugin 'ctags.vim'
 Plugin 'CmdlineComplete'
 Plugin 'Align'
 "..................................
+
+Plugin 'Valloric/YouCompleteMe'
 
 call vundle#end()
 
