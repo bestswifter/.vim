@@ -30,6 +30,11 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'wellle/targets.vim'
 Plugin 'majutsushi/tagbar'
 
+" outline
+Plugin 'shougo/unite.vim'
+Plugin 'shougo/unite-outline'
+Plugin 'ryotakato/unite-outline-objc'
+
 "..................................
 " vim-scripts repos
 Plugin 'YankRing.vim'
