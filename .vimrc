@@ -27,20 +27,29 @@ Plugin 'tacahiroy/ctrlp-funky'
 Plugin 'tpope/vim-fugitive'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
+Plugin 'chriskempson/base16-vim'
 Plugin 'wellle/targets.vim'
 Plugin 'majutsushi/tagbar'
+Plugin 'MarcWeber/vim-addon-mw-utils'
+Plugin 'tomtom/tlib_vim'
+Plugin 'garbas/vim-snipmate'
 
 " outline
 Plugin 'shougo/unite.vim'
 Plugin 'shougo/unite-outline'
 Plugin 'ryotakato/unite-outline-objc'
 
+" For objc
+Plugin 'vim-syntastic/syntastic'
+Plugin 'bestswifter/ctags-ObjC-5.8.1'
+Plugin 'jgoulah/cocoa.vim'
+Plugin 'vim-scripts/a.vim'
+
 "..................................
 " vim-scripts repos
 Plugin 'YankRing.vim'
 Plugin 'SudoEdit.vim'
 Plugin 'EasyGrep'
-Plugin 'ctags.vim'
 Plugin 'CmdlineComplete'
 Plugin 'Align'
 "..................................
